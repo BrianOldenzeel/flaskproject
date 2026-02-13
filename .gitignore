@@ -1,0 +1,64 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ----------------------
+# Flask specific
+# ----------------------
+instance/
+.webassets-cache/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Flask environment variables
+.env
+.flaskenv
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Testing / Coverage
+# ----------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------
+# Migrations (optional)
+# ----------------------
+# If using Flask-Migrate and want to ignore migrations:
+# migrations/
